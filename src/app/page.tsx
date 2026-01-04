@@ -9,7 +9,7 @@ export default function Home() {
       {/* 네비게이션 */}
       <nav className="fixed top-0 w-full z-40 px-6 py-6 md:px-12 md:py-10 flex justify-between items-center text-[#F9F7F2]">
         <h1 className="text-2xl md:text-3xl font-serif font-bold tracking-widest cursor-pointer z-50 text-[#3E3A36] mix-blend-difference">
-          <Link href="/">해온</Link>
+          <Link href="/">자연의 미학</Link>
         </h1>
         
         {/* PC 메뉴: 폰트 크기 적절히 조절 (text-base) */}
@@ -156,9 +156,9 @@ export default function Home() {
         </div>
       </section>
       <footer className="py-20 text-center border-t border-[#EAE5DD] bg-[#F9F7F2]">
-        <h2 className="font-serif text-2xl mb-6 text-[#3E3A36] opacity-60">해온</h2>
+        <h2 className="font-serif text-2xl mb-6 text-[#3E3A36] opacity-60">자연의 미학</h2>
         <p className="text-xs text-[#8C7B6C] font-light tracking-widest">
-          &copy; 2026 STAY HAEON.
+          &copy; 2026 nature stay.
         </p>
       </footer>
     </div>
