@@ -12,12 +12,7 @@ export default function Home() {
           <Link href="/">자연의 미학</Link>
         </h1>
         
-        {/* PC 메뉴: 폰트 크기 적절히 조절 (text-base) */}
-        <div className="hidden md:flex space-x-12 text-base font-normal tracking-[0.2em]">
-          <Link href="#rooms" className="hover:opacity-70 transition pb-1 border-b border-transparent hover:border-white/50">객실</Link>
-          <Link href="#about" className="hover:opacity-70 transition pb-1 border-b border-transparent hover:border-white/50">소개</Link>
-          <Link href="#location" className="hover:opacity-70 transition pb-1 border-b border-transparent hover:border-white/50">위치</Link>
-        </div>
+
 
         {/* 모바일 메뉴 */}
         <MobileMenu />

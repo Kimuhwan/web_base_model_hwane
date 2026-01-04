@@ -11,7 +11,7 @@ export default function MobileMenu() {
       {/* 1. 햄버거 버튼 (열기) */}
       <button 
         onClick={() => setIsOpen(true)} 
-        className="text-[#F9F7F2] p-2 focus:outline-none z-50 relative"
+        className="text-[#4A4036] p-2 focus:outline-none z-50 relative"
       >
         {/* SVG 아이콘: 3단 줄 */}
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
