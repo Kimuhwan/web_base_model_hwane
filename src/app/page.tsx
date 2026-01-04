@@ -27,7 +27,7 @@ export default function Home() {
       <header className="relative h-[100dvh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073" 
+            src="https://mblogthumb-phinf.pstatic.net/MjAyMDA0MjBfNjIg/MDAxNTg3MzA5MTcyMjI1.Xbw3_WzwmwImrwq4O_IkIeew63R0XQ2FeAp5PaDsgEEg.X3x_wmbvzlLrtv2ACicuhmD8M-vxnoLP8pg36vLlPcwg.JPEG.nimo126/IMG_0544.jpg?type=w800" 
             alt="Main Background" 
             className="w-full h-full object-cover filter brightness-[0.85] sepia-[15%] grayscale-[10%]" 
           />
@@ -36,16 +36,16 @@ export default function Home() {
           <div className="w-[1px] h-16 md:h-24 bg-[#F9F7F2]/60 mx-auto mb-8"></div>
           
           <p className="text-lg md:text-xl font-serif tracking-[0.5em] opacity-90 font-light">
-            따뜻한 바다의 집
+            자연속 감성 스테이
           </p>
           
           {/* 폰트 크기 안정화: 모바일 5xl, PC 8xl (9xl은 너무 커서 깨질 수 있음) */}
           <h2 className="text-5xl md:text-8xl font-serif font-medium leading-tight tracking-wide break-keep">
-            스테이<br />해온
+            자연의<br />미학
           </h2>
           
           <p className="text-sm md:text-base font-light tracking-[0.3em] opacity-80 pt-4">
-            GANGNEUNG, KOREA
+            Hwasun, KOREA
           </p>
         </div>
       </header>
@@ -106,7 +106,10 @@ export default function Home() {
           <h3 className="text-3xl md:text-4xl font-serif tracking-[0.2em] text-[#3E3A36]">ABOUT</h3>
           <div className="w-[1px] h-12 bg-[#D4C5B5] mx-auto"></div>
           <p className="text-lg md:text-3xl leading-relaxed font-light break-keep text-[#595048]">
-            스테이 해온은 강릉의 아름다운 바다와 조화를 이루는 프라이빗 스테이입니다. 전통적인 한국의 미와 현대적인 편안함이 어우러진 공간에서 특별한 휴식을 경험하세요. 각 객실은 세심하게 디자인되어 고객님께 최고의 안락함을 제공합니다. 해온에서 잊지 못할 추억을 만들어보세요.
+            자연의 미학은 단순한 휴식 그 이상을 의미합니다.
+            자연과 조화를 이루는 공간에서 진정한 쉼과 영감을 제공합니다.
+            계절의 변화와 함께하는 풍경, 그리고 세심하게 준비된 편의시설이 어우러져 머무는 이들에게 특별한 경험을 선사합니다.
+            자연의 미학에서 당신만의 이야기를 만들어보세요.
           </p>
         </div>
       </section>
@@ -132,7 +135,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center space-y-10">
           <h3 className="text-3xl md:text-4xl font-serif tracking-[0.2em] text-[#3E3A36]">LOCATION</h3>
           <p className="text-lg font-light text-[#595048]">
-            강원도 강릉시 경포로 123 (스테이 해온)
+            전라남도 화순군 이서면 천태로 755-15 (화순읍 차량 10분)
           </p>
           
           {/* 네이버 지도 이미지 링크 */}

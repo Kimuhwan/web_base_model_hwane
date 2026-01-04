@@ -1,9 +1,9 @@
 export const rooms = [
   {
-    id: "ocean-suite",
-    name: "Ocean Suite",
+    id: "forest-401",
+    name: "Forest 401",
     price: { low: 180000, semi: 240000, peak: 350000 },
-    description: "전면 유리창으로 펼쳐지는 파노라마 오션뷰와 프라이빗 자쿠지를 즐길 수 있는 시그니처 객실입니다.",
+    description: "개인 바베큐와 함께 자연의 품에 안긴 듯한 편안함을 제공하는 고급스러운 객실입니다.",
     // ★ 핵심 수정: image(문자열) -> images(배열)
     images: [
       "https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA5MTZfMTEg%2FMDAxNzI2NDk3NDgyMjYw.9rFr6FwASrf7xOCWO1b4IQOvmssLJFlrvPF11pMpUUcg.LrHbDXCZSopsQCiVCmd5juHDRIGryGo3wPG2NmqKTR4g.JPEG%2FBAA9FBB4-9C2B-4FC5-AF60-814EBA395336.jpeg%3Ftype%3Dw1500_60_sharpen", // 메인
@@ -12,7 +12,7 @@ export const rooms = [
       "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA5MDNfMjQg%2FMDAxNzU2ODYzMTQ1NzAw.iAbOTLEMDU_YcmNJlniaWb95SrhskQ_e-XbqFP1SkNUg.myWoL2GvZmlTbs_v7VLF0IrFQg6ejMrTrKme82n0SCYg.JPEG%2FIMG%25A3%25DF3721.JPG"  // 뷰
     ],
     // ★ 편의시설 키워드 정리 (아이콘 매핑용)
-    details: ["최대 2인", "킹사이즈 침대", "자쿠지", "오션뷰", "와이파이", "어메니티"]
+    details: ["최대 3인", "퀸사이즈 침대", "개별 바비큐", "숲뷰", "주방시설", "넷플릭스"]
   },
   {
     id: "garden-terrace",
