@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="min-h-screen text-[#4A4036] font-sans selection:bg-[#8C7B6C]">
       
-      {/* 네비게이션 */}
+      {/* 네비게이 션  */}
       <nav className="fixed top-0 w-full z-40 px-6 py-6 md:px-12 md:py-10 flex justify-between items-center text-[#F9F7F2]">
         <h1 className="text-2xl md:text-3xl font-serif font-bold tracking-widest cursor-pointer z-50 text-[#3E3A36] mix-blend-difference">
           <Link href="/">자연의 미학</Link>
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h3 className="text-3xl md:text-4xl font-serif tracking-[0.2em] text-[#3E3A36]">ABOUT</h3>
           <div className="w-[1px] h-12 bg-[#D4C5B5] mx-auto"></div>
-          <p className="text-lg md:text-3xl leading-relaxed font-light break-keep text-[#595048]">
+          <p className="text-lg md:text-2xl leading-relaxed font-light break-keep text-[#595048]">
             자연의 미학은 단순한 휴식 그 이상을 의미합니다.
             자연과 조화를 이루는 공간에서 진정한 쉼과 영감을 제공합니다.
             계절의 변화와 함께하는 풍경, 그리고 세심하게 준비된 편의시설이 어우러져 머무는 이들에게 특별한 경험을 선사합니다.
@@ -130,7 +130,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center space-y-10">
           <h3 className="text-3xl md:text-4xl font-serif tracking-[0.2em] text-[#3E3A36]">LOCATION</h3>
           <p className="text-lg font-light text-[#595048]">
-            전라남도 화순군 이서면 천태로 755-15 (화순읍 차량 10분)
+            전라남도 화순군 이서면 영평리 95-21 (화순읍 차량 15분)
           </p>
           
           {/* 네이버 지도 이미지 링크 */}
