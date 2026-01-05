@@ -52,14 +52,7 @@ export default async function RoomDetail({ params }: Props) {
           
           {/* 좌측: 설명 섹션 */}
           <div className="lg:col-span-2">
-            <span className="text-[#8C7B6C] text-xs font-bold tracking-widest uppercase mb-2 block">Private Stay</span>
-            <h1 className="text-3xl md:text-5xl font-serif text-[#4A4036] mb-8">{room.name}</h1>
-            
-            <div className="w-full h-[1px] bg-[#D4C5B5] mb-8 opacity-50"></div>
-
-            <p className="text-[#595048] leading-loose text-base md:text-lg mb-12 font-light break-keep">
-              {room.description} <br/><br/>
-              해온만의 감성으로 채워진 공간에서 오롯이 당신만을 위한 시간을 가져보세요. 
+            <span className="text-[#8C7B6C] text-xs font-bold tracking-widest uppercase mb-2 block">Private Stay</s학만의 감성으로 채워진 공간에서 오롯이 당신만을 위한 시간을 가져보세요. 
               창밖으로 흐르는 풍경과 따스한 햇살이 머무는 이곳에서 진정한 쉼을 제안합니다.
             </p>
             
