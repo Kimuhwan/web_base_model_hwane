@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Noto_Serif_KR } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll"; // 방금 만든 거 가져오기
+import FloatingButtons from "@/components/FloatingButtons"; // 방금 만든 거 가져오기
 
 // 폰트 설정
 const serif = Noto_Serif_KR({
@@ -56,6 +57,7 @@ export default function RootLayout({
       <body className={`${serif.variable} antialiased`}>
         {/* 여기서 스크롤 기능을 실행시킵니다 */}
         <SmoothScroll /> 
+        <FloatingButtons />
         {children}
       </body>
     </html>
