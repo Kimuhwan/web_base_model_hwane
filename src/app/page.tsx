@@ -1,11 +1,14 @@
 import Link from "next/link";
 import { rooms } from "./data";
-import MobileMenu from "@/components/MobileMenu";
-import NaverMap from "@/components/NaverMap";
+import { MobileMenu } from "@/components/MobileMenu";
+import { MainPopup } from "@/components/MainPopup";
+
+
 export default function Home() {
+  
   return (
     <div className="min-h-screen text-[#4A4036] font-sans selection:bg-[#8C7B6C]">
-      
+      <MainPopup />
       {/* 네비게이 션  */}
       <nav className="fixed top-0 w-full z-40 px-6 py-6 md:px-12 md:py-10 flex justify-between items-center text-[#F9F7F2]">
         <h1 className="text-2xl md:text-3xl font-serif font-bold tracking-widest cursor-pointer z-50 text-[#3E3A36] mix-blend-difference">
@@ -16,10 +19,12 @@ export default function Home() {
 
         {/* 모바일 메뉴 */}
         <MobileMenu />
+        
       </nav>
 
       {/* 히어로 섹션 */}
       <header className="relative h-[100dvh] flex items-center justify-center overflow-hidden">
+        
         <div className="absolute inset-0 z-0">
           <img 
             src="https://mblogthumb-phinf.pstatic.net/MjAyMDA0MjBfNjIg/MDAxNTg3MzA5MTcyMjI1.Xbw3_WzwmwImrwq4O_IkIeew63R0XQ2FeAp5PaDsgEEg.X3x_wmbvzlLrtv2ACicuhmD8M-vxnoLP8pg36vLlPcwg.JPEG.nimo126/IMG_0544.jpg?type=w800" 
