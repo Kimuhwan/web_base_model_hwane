@@ -12,7 +12,7 @@ export default function FloatingButtons() {
       
       {/* 1. 인스타그램 버튼 (위) */}
       <a
-        href="https://www.instagram.com/본인아이디" // 링크 수정 필수
+        href="https://www.instagram.com/oudawhn" // 링크 수정 필수
         target="_blank"
         rel="noreferrer"
         aria-label="Instagram"

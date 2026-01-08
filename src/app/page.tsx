@@ -154,6 +154,12 @@ export default function Home() {
         <h2 className="font-serif text-2xl mb-6 text-[#3E3A36] opacity-60">자연의 미학</h2>
         <p className="text-xs text-[#8C7B6C] font-light tracking-widest">
           &copy; 2026 nature stay.
+          예약문의010-1234-5678
+          업체명 : 자연의 미학 / (대표자)김OO
+          주소 : 강원도 춘천시 남산면 홍천강변길 520
+          사업자번호 : 634-02-02805
+          통신판매업번호 : 제 2023-강원춘천-0441 호
+          업체명 : E-MAIL:dbj0072@naver.com
         </p>
       </footer>
     </div>
