@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 자연의 미학
 
-## Getting Started
+화순의 숙소를 소개하는 Next.js 웹 데모입니다. 메인에서 객실을 고르면 사진 갤러리와 객실별 이용 안내를 볼 수 있습니다. 예약 버튼은 네이버 예약으로 연결됩니다.
 
-First, run the development server:
+[객실 둘러보기](https://webbasemodelhwane.vercel.app/)
 
-```bash
+## 프로젝트 구성
+
+- [객실 데이터](src/app/data.ts)에 객실 이름과 사진, 요금 등 화면에 표시할 정보를 모았습니다.
+- [객실 상세 페이지](src/app/rooms)에서 [사진 갤러리](src/components/RoomGallery.tsx)와 [예약 안내](src/components/ReservationBox.tsx)를 함께 보여줍니다.
+
+## 로컬에서 실행
+
+```sh
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+브라우저에서 [로컬 사이트](http://localhost:3000)를 엽니다. 배포용으로 빌드할 때는 `npm run build`를 실행합니다.
